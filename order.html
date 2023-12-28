@@ -1,0 +1,70 @@
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+    header {
+        position: relative;
+    }
+    .total-card {
+        position: sticky;
+        top: 0;
+    }
+</style>
+<section class="order">
+
+    <div class="total-card">
+        <table class="simplecheckout-cart">
+            <thead>
+                <tr>
+                    <td class="image"></td>
+                    <td class="name">Деталі</td>
+                    <td class="total-price">Ціна</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="main">
+                    <td class="image">
+                        <img src="img/1.jpg" alt="">
+                    </td>
+                    <td class="name">
+                        <p>Автомодель MZ Lexus LX570 на радіокеруванні 1:24</p>
+                    </td>
+                    <td class="total-price">
+                        <h4>1249 ₴</h4>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <form class="frm" action="" method="POST">
+        <div class="forms">
+            <div class="form-col">
+                <div class="spa">
+                    <span>Інформація про клієнта<br></span>
+                </div>
+                <label for="">Прізвище</label>
+                <input type="text" name="fname" required>
+                <label for="">Ім'я</label>
+                <input type="text" name="sname" required>
+                <label for="">Email</label>
+                <input type="email" name="email" required>
+                <label for="">Номер телефону</label>
+                <input type="text" name="mob" required>
+            </div>
+            <div class="form-col">
+                <div class="spa">
+                    <span>Інформація щодо доставки</span>
+                </div>
+
+                <label for="">Область</label>
+                <input type="text" name="region" required>
+                <label for="">Місто</label>
+                <input type="text" name="city" required>
+                <label for="">Відділення служби доставки</label>
+                <input type="text" name="vid" required>
+
+                <Button type="submit"><a href="success.html">Оформити замовлення</a></Button>
+            </div>
+        </div>
+    </form>
+
+</section>
